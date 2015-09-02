@@ -1,0 +1,13 @@
+.\Output\main.o: ..\User\main.c
+.\Output\main.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Output\main.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\Output\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Output\main.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\Output\main.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\Output\main.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\Output\main.o: ..\User\stm32f10x_conf.h
+.\Output\main.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\Output\main.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Output\main.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Output\main.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Output\main.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
