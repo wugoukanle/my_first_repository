@@ -1,7 +1,0 @@
---cpu Cortex-M3 ".\output\misc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_rtc.o" ".\output\stm32f10x_iwdg.o" ".\output\stm32f10x_bkp.o" ".\output\stm32f10x_pwr.o" ".\output\stm32f10x_adc.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_hd.o" ".\output\app.o" ".\output\bsp.o" ".\output\delay.o" ".\output\nvic.o" ".\output\usart.o" ".\output\timer.o" ".\output\sw-key.o" ".\output\rtc_time.o" ".\output\globle_var.o" ".\output\li_power.o" ".\output\oled.o" ".\output\flash.o" ".\output\spi.o" ".\output\sys.o" 
---library_type=microlib 
---feedback ".\Output\Project.fed" --feedback_image=none 
---strict --scatter ".\Output\Project.sct" 
---summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\List\Project.map" -o .\Output\Project.axf
